@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+  <title>moja HTML stranica</title>
+  
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      h1 {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
+    </style>
+  
+  <link rel="stylesheet" href="stil2.css"/>
+  
+</head>
+
+
+<body>
+
+<h1>Nikolina Opacic</h1>
+
+<p>Dobrodošli na moju web stranicu!</p>
+<p>Ovu stranicu ću uređivati tokom ovog semestra.</p>
+
+</body
