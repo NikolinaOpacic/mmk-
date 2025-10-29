@@ -5,21 +5,68 @@ h1 {
 	font-weight: 100;
 	font-style: serif;
 	color: white;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 75px;
+	text-align:center;
 
 }
 
 p {
 	font-family: Broadway;
-	font-weight: 150;
+	font-weight: 300;
 	font-style: vedrana;
-	color: rgb(0, 139, 139);
-	background-color: rgba(255, 255, 255, 0.5);
+	color: #0b2547;
+	font-size: 25px;
+	padding-left: 55px;
+	line-height: 150%;
 
 }
 
 body {
 	
-	background-color: lightblue;
+	background-image: url("slike/pozadina1.jpg")
 	
+}
+
+.kvadrat{
+	
+	position:relative;
+	display:inline-block;
+	padding:25px;
+	background-color: rgba(255, 255, 255, 0.7);
+	
+}
+
+ ul.nav-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex; 
+      gap: 10px;
+    }
+	
+	 ul.nav-list li a {
+      display: inline-block;
+      background-color: #0b2547;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+.moja-lista {
+  list-style-type: upper-roman; 
+  float: left;                 
+  width: 200px;               
+  margin: 20px;                
+  background-color: rgba(255, 255, 255, 0.7);    
+  border: 3px solid #0b2547;      
+}
+
+.moja-lista li {
+  margin-bottom: 5px;     
+  font-weight: bold;            
 }
