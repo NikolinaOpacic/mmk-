@@ -22,7 +22,7 @@ p {
 
 }
 
-body {
+.pozadina {
 	
 	background-image: url("slike/pozadina1.jpg")
 	
@@ -69,4 +69,5 @@ body {
 .moja-lista li {
   margin-bottom: 5px;     
   font-weight: bold;            
+
 }
