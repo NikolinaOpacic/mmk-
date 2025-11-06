@@ -67,7 +67,74 @@ p {
 }
 
 .moja-lista li {
-  margin-bottom: 5px;     
+  margin-bottom: 10px;     
   font-weight: bold;            
+}
 
+form {
+  max-width: 400px;
+  background-color: #d1e6ed;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: block;
+  margin-top: 200px;
+  margin-left:75px;
+}
+
+fieldset {
+  border: 7.5px solid #0b2547;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color:#0b2547;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input:focus, select:focus {
+  border-color: #4a90e2;
+  outline: none;
+  background-color: #e8f0fe;
+}
+
+button:hover {
+  background-color: #4a90e2;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #357ab8;
+}
+
+
+input[type="email"] {
+  background-color: #fafafa;
+}
+
+input[type="url"] {
+  background-color: #f0faff;
+}
+
+
+input::placeholder {
+  color: #aaa;
+  font-style: italic;
 }

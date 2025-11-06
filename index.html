@@ -46,4 +46,39 @@
   <li><span style="color: blue;">plava</span> riječ</li>
 </ol>
 
+ <form id="kontakt-forma" name="kontaktForma">
+    <fieldset>
+      <legend>Nekoliko pitanja</legend>
+
+      <label for="ime">Ime i prezime:</label>
+      <input type="text" id="ime" name="ime" placeholder="Upišite svoje ime">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="ime@domena.com">
+
+      <label for="web">Web stranica:</label>
+      <input type="url" id="web" name="web" placeholder="https://primjer.com">
+
+      <label for="grad">Grad:</label>
+      <select id="grad" name="grad">
+        <option value="">-- Odaberite grad --</option>
+        <option value="zagreb">Zagreb</option>
+        <option value="split">Split</option>
+        <option value="rijeka">Rijeka</option>
+      </select>
+
+      <label for="boja">Omiljena boja (upišite ili odaberite):</label>
+      <input list="boje" id="boja" name="boja" placeholder="plava">
+      <datalist id="boje">
+        <option value="crvena">
+        <option value="zelena">
+        <option value="plava">
+        <option value="žuta">
+      </datalist>
+
+      <button type="submit" value="Pošalji">Pošalji</button>
+    </fieldset>
+  </form>
+
+
 </body
