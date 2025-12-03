@@ -208,31 +208,47 @@ img {
 
 
 .pdf-ugradeni {
-    width: 800px;
+    width: 500px;
     height: 700px;
     border: 1px solid #ccc;
 	width: 100%;
     max-width: 1000px; 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
  
 
     .pdf-ugradeni {
         height: 450px;
     }
+	.mediji-red {
+        flex-direction: column;
+    }
+}	
 	
-picture {
-     height: auto;
-    display: block;
+.mediji-red {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
     margin: 0.5rem 0;
-	 width: 400px !important;
 }
 
+
+.slika-blok {
+    display: block;
+}
+
+
+
 .pdf-embed {
-      width: 800px;
+    flex: 1;
+    width: 100%;
+    width: 800px;
     height: 700px;
     border: 1px solid #ccc;
-	width: 100%;
-    max-width: 1000px; 
 }
+
+
+
+
+

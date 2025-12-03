@@ -122,26 +122,28 @@
     </p>
 
     <p>Primjer slike</p>
+	<div class="mediji-red">
     <img src="20230331_154300.jpg" alt="SLIKA 1" class="vanjska-slika">
-	
+	    <picture class="slika-blok">
+        <source srcset="20230331_152616.jpg" media="(max-width: 600px)">
+        <source srcset="20230331_152616.jpg" media="(min-width: 601px)">
+        <img src="20230331_152616.jpg" alt="Logo moje vježbe" class="vanjska-slika">
+    </picture>
+	</div>
 	<p>Primjer youtube videa unutar stranice</p>
        <iframe width="560" height="315" src="https://www.youtube.com/embed/Zb7H0JqeaHk?si=Dfg3aAslAp1wsg4i" 
 	  frameborder="0" 
 	  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 	  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<picture>
-
-    <source src="20230331_152616.jpg" media="(max-width: 600px)">
-
-</picture>
 
    <p> Primjer prikaza PDF datoteke</p>
+   <div class="mediji-red">
     <object data="nikolinaopacicV4 (2).pdf" type="application/pdf" class="pdf-ugradeni">
        
     </object>
-	
-<embed src="V3 copy.pdf" type="application/pdf" class="pdf-embed">
+		<embed src="V3 copy.pdf" type="application/pdf" class="pdf-embed">
+</div>
 	
 </section>
 
