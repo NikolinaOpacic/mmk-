@@ -197,6 +197,7 @@ td {
     height: auto;
     display: block;
     margin: 0.5rem 0;
+	 width: 120px;
 }
 
 
@@ -209,7 +210,7 @@ td {
     height: 350px;     
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 600px) {
     #vanjski-sadrzaj {
         padding: 0.5rem;
     }
@@ -218,6 +219,7 @@ td {
         height: 200px;
     }
 }
+
 
 
 
