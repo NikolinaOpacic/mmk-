@@ -193,6 +193,11 @@ td {
     margin-top: 1rem;
 }
 
+#vanjski-sadrzaj img {
+    width: auto;
+    max-width: 100%;
+}
+
 .vanjska-slika {
     height: auto;
     display: block;
@@ -217,6 +222,7 @@ td {
         height: 200px;
     }
 }
+
 
 
 
