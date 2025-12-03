@@ -194,7 +194,7 @@ td {
 }
 
 #vanjski-sadrzaj img {
-    width: auto;
+    width: 80px;
     max-width: 100%;
 }
 
@@ -211,8 +211,8 @@ td {
     width: 120px;
     border: 1px solid #ccc;
 	 width: 100%;
-    max-width: 800px; 
-    height: 450px;     
+    max-width: 1000px; 
+    height: 650px;     
 }
 
 @media screen and (max-width: 600px) {
@@ -222,6 +222,7 @@ td {
         height: 200px;
     }
 }
+
 
 
 
