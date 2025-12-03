@@ -208,11 +208,11 @@ img {
 
 
 .pdf-ugradeni {
-    width: 800px;
+ width: 800px;
+    height: 700px;
     border: 1px solid #ccc;
-	 width: 100%;
-    max-width: 1000px; 
-    height: 1000px;     
+	width: 100%;
+    max-width: 1000px;     
 }
 
 @media screen and (max-width: 600px) {
@@ -222,6 +222,7 @@ img {
         height: 450px;
     }
 }
+
 
 
 
