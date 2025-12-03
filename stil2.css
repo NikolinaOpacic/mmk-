@@ -202,7 +202,7 @@ img {
     height: auto;
     display: block;
     margin: 0.5rem 0;
-	 width: 120px !important;
+	 width: 400px !important;
 }
 
 
@@ -212,16 +212,17 @@ img {
     border: 1px solid #ccc;
 	 width: 100%;
     max-width: 1000px; 
-    height: 450px;     
+    height: 1000px;     
 }
 
 @media screen and (max-width: 600px) {
 
 
     .pdf-ugradeni {
-        height: 400px;
+        height: 450px;
     }
 }
+
 
 
 
