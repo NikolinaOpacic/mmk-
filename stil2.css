@@ -206,7 +206,7 @@ td {
     border: 1px solid #ccc;
 }
 
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 200px) {
     #vanjski-sadrzaj {
         padding: 0.5rem;
     }
@@ -215,4 +215,5 @@ td {
         height: 200px;
     }
 }
+
 
