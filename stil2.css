@@ -194,7 +194,7 @@ td {
 }
 
 img {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
@@ -222,6 +222,7 @@ img {
         height: 400px;
     }
 }
+
 
 
 
