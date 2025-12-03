@@ -202,7 +202,7 @@ td {
     height: auto;
     display: block;
     margin: 0.5rem 0;
-	 width: 120px;
+	 width: 80px;
 }
 
 
@@ -211,8 +211,8 @@ td {
     width: 120px;
     border: 1px solid #ccc;
 	 width: 100%;
-    max-width: 600px; 
-    height: 350px;     
+    max-width: 800px; 
+    height: 450px;     
 }
 
 @media screen and (max-width: 600px) {
@@ -222,6 +222,7 @@ td {
         height: 200px;
     }
 }
+
 
 
 
