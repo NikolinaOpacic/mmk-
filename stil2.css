@@ -211,14 +211,13 @@ td {
 }
 
 @media screen and (max-width: 600px) {
-    #vanjski-sadrzaj {
-        padding: 0.5rem;
-    }
+
 
     .pdf-ugradeni {
         height: 200px;
     }
 }
+
 
 
 
