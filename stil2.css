@@ -194,7 +194,6 @@ td {
 }
 
 .vanjska-slika {
-    max-width: 50%;
     height: auto;
     display: block;
     margin: 0.5rem 0;
@@ -203,7 +202,6 @@ td {
 
 
 .pdf-ugradeni {
-    width: 100%;
     height: 700px;
     border: 1px solid #ccc;
 }
@@ -217,3 +215,4 @@ td {
         height: 200px;
     }
 }
+
