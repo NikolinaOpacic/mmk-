@@ -221,4 +221,18 @@ img {
     .pdf-ugradeni {
         height: 450px;
     }
+	
+picture {
+     height: auto;
+    display: block;
+    margin: 0.5rem 0;
+	 width: 400px !important;
+}
 
+.pdf-embed {
+      width: 800px;
+    height: 700px;
+    border: 1px solid #ccc;
+	width: 100%;
+    max-width: 1000px; 
+}
