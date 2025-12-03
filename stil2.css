@@ -202,17 +202,17 @@ td {
     height: auto;
     display: block;
     margin: 0.5rem 0;
-	 width: 80px;
+	 width: 80px !important;
 }
 
 
 
 .pdf-ugradeni {
-    width: 120px;
+    width: 800px;
     border: 1px solid #ccc;
 	 width: 100%;
     max-width: 1000px; 
-    height: 650px;     
+    height: 450px;     
 }
 
 @media screen and (max-width: 600px) {
@@ -222,6 +222,7 @@ td {
         height: 200px;
     }
 }
+
 
 
 
