@@ -270,7 +270,7 @@ img {
         }
 	
   
- .form-group {
+        .form-group {
             margin: 20px 0;
         }
         label {
@@ -311,5 +311,75 @@ img {
         }
 
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+    transition: 
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background-color 0.3s ease;
+}
+
+
+
+.card button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #16416b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: 
+        background-color 0.3s ease,
+        transform 0.2s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(184, 215, 245, 0.2);
+    background-color: #fffaf3;
+}
+
+
+.card:focus {
+    outline: none;
+    transform: scale(1.1) rotate(1deg);
+    box-shadow: 0 0 0 4px rgba(184, 215, 245, 0.4);
+}
+
+
+.card:active {
+    transform: scale(0.9);
+}
+
+
+.card button:hover {
+    background-color: #03090f;
+    transform: translateY(-2px);
+}
+
+
+.card button:active {
+    transform: translateY(1px);
+}
+
+
+.card button:focus {
+    outline: 2px solid black;
+}
 
 
