@@ -383,3 +383,73 @@ img {
 }
 
 
+#tema {
+    width: 300px;
+    margin: 30px auto;
+	display: flex;
+	gap: 40px;
+}
+
+
+#tema .okvir.izdvojeno {
+    background-color: #ffdd99;
+    animation: pulsiranje 2s infinite;
+}
+
+
+#tema > .okvir {
+    padding: 10px;
+    margin: 6px 0;
+    background-color: white;
+    border: 1px solid #333;
+}
+
+
+.okvir + .okvir {
+    animation: pomak 3s infinite;
+}
+
+
+.okvir.izdvojeno ~ .okvir {
+    background-color: #d9ecff;
+}
+
+
+#tema .okvir:nth-child(2) {
+    border-color: red;
+}
+
+
+#tema .okvir:nth-of-type(3) {
+    border-color: green;
+}
+
+
+@keyframes pulsiranje {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.03);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes pomak {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
