@@ -458,6 +458,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+	perspective: 1000px;
 }
 
 
@@ -500,4 +501,5 @@ img {
     75%  { transform: rotateX(0deg) rotateY(180deg) scale(0.8); }
     100% { transform: rotateX(0deg) rotateY(0deg) scale(1); }
 }
+
 
