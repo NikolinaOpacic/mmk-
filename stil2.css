@@ -454,52 +454,75 @@ img {
 
 
 
+
+
+
 .scena {
     display: flex;
     justify-content: center;
     align-items: center;
-	perspective: 1000px;
+    gap: 200px; 
+    perspective: 1200px;
 }
 
 
 .kocka-kontejner {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: relative;
-    transform-style: preserve-3d; 
-    animation: rotirajSkaliraj 5s infinite linear; 
+    transform-style: preserve-3d;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.rotacijaXY {
+    animation-name: rotacijaXY;
+}
+
+
+.rotacijaXScale {
+    animation-name: rotacijaXScale;
 }
 
 
 .strana-kocke {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 2px solid #fff;
-    backface-visibility: hidden; 
+    backface-visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    font-size: 16px;
 }
 
 
-.prednja  { background-color: #ff3333; transform: translateZ(100px); }
-.stražnja { background-color: #33ff33; transform: rotateY(180deg) translateZ(100px); }
-.desna    { background-color: #3333ff; transform: rotateY(90deg) translateZ(100px); }
-.lijeva   { background-color: #ffff33; transform: rotateY(-90deg) translateZ(100px); }
-.gornja   { background-color: #ff33ff; transform: rotateX(90deg) translateZ(100px); }
-.donja    { background-color: #33ffff; transform: rotateX(-90deg) translateZ(100px); }
+.prednja  { background-color: #ff3333; transform: translateZ(75px); }
+.stražnja { background-color: #33ff33; transform: rotateY(180deg) translateZ(75px); }
+.desna    { background-color: #3333ff; transform: rotateY(90deg) translateZ(75px); }
+.lijeva   { background-color: #ffff33; transform: rotateY(-90deg) translateZ(75px); }
+.gornja   { background-color: #ff33ff; transform: rotateX(90deg) translateZ(75px); }
+.donja    { background-color: #33ffff; transform: rotateX(-90deg) translateZ(75px); }
 
 
-@keyframes rotirajSkaliraj {
-    0%   { transform: rotateX(0deg) rotateY(0deg) scale(1); }
-    25%  { transform: rotateX(180deg) rotateY(0deg) scale(1.2); }
-    50%  { transform: rotateX(180deg) rotateY(180deg) scale(1); }
-    75%  { transform: rotateX(0deg) rotateY(180deg) scale(0.8); }
-    100% { transform: rotateX(0deg) rotateY(0deg) scale(1); }
+@keyframes rotacijaXY {
+    0%   { transform: rotateX(0deg) rotateY(0deg); }
+    25%  { transform: rotateX(180deg) rotateY(90deg); }
+    50%  { transform: rotateX(360deg) rotateY(180deg); }
+    75%  { transform: rotateX(540deg) rotateY(270deg); }
+    100% { transform: rotateX(720deg) rotateY(360deg); }
 }
 
+
+@keyframes rotacijaXScale {
+    0%   { transform: rotateX(0deg) scale(1); }
+    25%  { transform: rotateX(90deg) scale(1.2); }
+    50%  { transform: rotateX(180deg) scale(1); }
+    75%  { transform: rotateX(270deg) scale(0.8); }
+    100% { transform: rotateX(360deg) scale(1); }
+}
 
